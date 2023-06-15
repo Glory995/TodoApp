@@ -5,7 +5,8 @@
 body {
  
   font-family: 'Raleway', sans-serif;
-
+  
+  background-color: blueviolet;
 }
 
 code {
@@ -14,14 +15,88 @@ code {
 }
 
 
-.edit-btn{
-
-  background: transparent;
-  border-color: transparent;
-  cursor: pointer;
-  font-size: 1.0rem;
-  margin: 0 0.10rem;
-  transition: all 0.3s linear;
-  color: lightgreen;
+.wrapper{
+  text-align: center;
+  padding: 1rem;
+  width: 400px;
+  height: 500px;
+  margin: 6% auto;
+   align-items: center;
+   background-color: white;
+   margin-top: 40;
 }
+
+
+.header{
+
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600px;
+  margin-bottom: 21px;
+
+  }
+
+
+input{
+  width: 250px;  
+  margin-right: 15px;
+  border: 1px solid blueviolet;
+}
+
+
+.addbtn{
+
+  color: white;
+  background-color: blueviolet;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.holdinglist{
+
+  height: 300px;
+ 
+  margin-top: 40px;
+  background-color: rgb(112, 56, 163);
+}
+
+
+.editbtn{
+
+  color: white;
+  background-color: blueviolet;
+  width: 60px;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+
+ul li{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item{
+
+  color: white;
+  margin-left: 10px;
+}
+
+.addbtn:hover{
+
+  color: blueviolet;
+  background-color: transparent;
+  width: 50px;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+input:focus {
+  outline: 2px solid blueviolet;
+}
+
+
+
+
          
