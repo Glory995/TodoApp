@@ -30,9 +30,10 @@ code {
 .header{
 
   text-align: center;
-  font-size: 32px;
-  font-weight: 600px;
+  font-size: 35px;
+  font-weight: 800px;
   margin-bottom: 21px;
+  color: rgb(75, 4, 141);
 
   }
 
@@ -66,10 +67,21 @@ input{
   color: white;
   background-color: blueviolet;
   width: 60px;
+  font-weight: 400;
   border-radius: 25px;
   margin: 5px;
 }
 
+
+.editbtn:hover{
+
+  color: rgb(6, 1, 10);
+  background-color: white;
+  width: 60px;
+  border-radius: 25px;
+  margin: 5px;
+  font-size: 16px;
+}
 
 ul li{
   padding-top: 10px;
@@ -94,6 +106,22 @@ ul li{
 
 input:focus {
   outline: 2px solid blueviolet;
+}
+
+
+@media screen and (max-width:640px) {
+
+  .wrapper{
+    width: 320px;
+    border-radius:25px ;
+  }
+
+  input{
+    width: 200px;
+  }
+
+
+  
 }
 
 
