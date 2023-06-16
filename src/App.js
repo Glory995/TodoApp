@@ -58,6 +58,8 @@ const handleAddItem = ()=>{
   return (
     <div  className='wrapper'>
 
+      <div>
+
         <div className="header">Todo List</div>
 
       <input type="text" value={inputValue} onChange={handleInputChange} />
@@ -86,6 +88,8 @@ const handleAddItem = ()=>{
 
 
       </ul>
+
+      </div>
 
       </div>
     </div>
