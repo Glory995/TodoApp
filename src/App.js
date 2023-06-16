@@ -56,9 +56,11 @@ const handleAddItem = ()=>{
 
 
   return (
+     <div className='contauner'>
+    
     <div  className='wrapper'>
 
-      <div>
+      
 
         <div className="header">Todo List</div>
 
@@ -90,9 +92,9 @@ const handleAddItem = ()=>{
       </ul>
 
       </div>
-
       </div>
-    </div>
+      </div>
+   
   );
 }
 

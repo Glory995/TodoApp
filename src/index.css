@@ -15,14 +15,21 @@ code {
 }
 
 
+.contauner{
+
+  display: flex;
+  justify-content: center;
+}
+
+
+
 .wrapper{
- 
+  margin-top: 40px;
   text-align: center;
   padding: 1rem;
   width: 400px;
   height: 500px;
-  margin: 0 auto;
-   align-items: center;
+  align-items: center;
    background-color: white;
    
 }
@@ -108,6 +115,7 @@ ul li{
 input:focus {
   outline: 2px solid blueviolet;
 }
+
 
 
 @media screen and (max-width:640px) {
