@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 body {
- 
+
+  display: flex;
+  justify-content: center;
+  height: 100vh; 
+  align-items: center;
   font-family: 'Raleway', sans-serif;
   
   background-color: blueviolet;
@@ -25,12 +29,12 @@ code {
 
 
 .wrapper{
-  margin-top: 5%;
   text-align: center;
   padding: 1rem;
   width: 400px;
   height: 500px;
   background-color: white;
+  border-radius:25px ;
    
 }
 
@@ -95,12 +99,15 @@ ul li{
   padding-top: 10px;
   display: flex;
   justify-content: space-between;
+  text-align: justify;
+  flex-wrap: nowrap;
 }
 
 .item{
 
   color: white;
   margin-left: 10px;
+  margin-top: 6px;
 }
 
 .addbtn:hover{
@@ -127,6 +134,14 @@ input:focus {
 
   input{
     width: 200px;
+  }
+
+  ul li{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 
 
